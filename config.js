@@ -73,13 +73,13 @@ module.exports = {
   ownername: process.env.Owner_Name || "Kyle😎",
   ownernumber: process.env.Owner_Number || "254789879395",
   instagramId: process.env.Insta || "8.08_only_mine",
-  warns: process.env.Warns_Limits || 9,
-  mongoUrl: process.env.MongoDB || "YOUR_MONGODB_URL",
+  warns: process.env.Warns_Limits || 3,
+  mongoUrl: process.env.MongoDB || "mongodb+srv://beckymukami44:<password>@skillhub.lzdj3yv.mongodb.net/?retryWrites=true&w=majority",
   welcome: process.env.Welcome_Msg || '*@$user* joined this group today as $membersth member.\n\n_$prefix welcome off to disable this message._',
   left: process.env.Left_Msg || 'Ex-member *@$user* is no longer available in this group chat.\n\n_$prefix goodbye off to disable this message._',
   promote: process.env.Promote_Msg || '*@$user* has been promoted as an admin in this group.\n\n_$prefix promotem off to disable this message._',
   demote: process.env.Demote_Msg || '*@$user* has been demoted to a member in this group.\n\n_$prefix demotem off to disable this message._',
-  sessionId: process.env.SESSION_ID || "WEF4REdRN0wjSTJqdlE1TmlYNTRMZFl2NGhta_Queen-Anya_nJOdGpGUzgweGFkZmxra_Queen-Anya_0x2RUtSV0IwZw==", 
+  sessionId: process.env.SESSION_ID || "NkZ4aVdZSkMjNEMtendmNXVnRkxER1JaU1k0c_Queen-Anya_mZGUGpEc_Queen-Anya_XAwdWZOT3FzM2FKTVVhWTRuSQ==", 
   image_1: readFileSync('./1706718897026.jpg'), // Thumbnail for allmenu command
   image_2: readFileSync('./1706718897026.jpg'), // null image
   image_3: readFileSync("./1706718897026.jpg"), // Thumbnail for Dashboard
